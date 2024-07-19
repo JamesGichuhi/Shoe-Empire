@@ -1,0 +1,176 @@
+body{
+    background-image: url("images2/background.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    opacity: 3;
+
+}
+.winner{
+    
+    opacity: 1.0;
+    object-fit: cover;
+}
+
+header{
+    background-color: #7b8135;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+      }
+footer{
+    background-color: #7b8135;
+  color: white;
+  text-align: center;
+  padding:1em 0;
+}
+.foot{
+    background-color: #7b8135;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
+}      
+header ul li{
+    display: inline;
+    margin-left: 15px;
+}
+.aone{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px yellowgreen;
+    padding: 5px;
+    margin: 0; 
+}
+.yen{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px yellowgreen;
+    padding: 5px;
+    margin: 0;  
+}
+.atwo{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px yellowgreen;
+    padding: 5px;
+    margin: 0;
+     
+}
+.hon{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px yellowgreen;
+    padding: 5px;
+    margin: 0;  
+}
+.athree{
+    background-color: gray;
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px yellowgreen;
+    padding: 5px;
+    margin: 0; 
+}
+.container {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.images{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,ifr));
+    grid-gap: 30px;
+}
+testimonial-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial-form textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.testimonial-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.testimonial-list {
+    margin-top: 20px;
+}
+.testimonial {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+div.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery :hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+    color: blueviolet;
+}
+.logo{
+    position: absolute;
+    height: auto;
+    left: 0px;
+    width: 100px;
+}
+.para{
+    font-size: x-large;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+}
+.head{
+    font-size:xx-large;
+    font-style: inherit;
+    color: white;
+    text-align: center;
+}

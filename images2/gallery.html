@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery with Footer</title>
+    <style>
+        /* Basic CSS for layout and styling */
+        .gallery {
+            display:inline;
+            grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 5px;
+            margin: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            height: auto;
+            display: block;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe4.jpeg">
+            <img src="images2/shoe4.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 5000 ksh</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe1.jpeg">
+            <img src="images2/shoe1.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 4000 ksh</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe2.jpeg">
+            <img src="images2/shoe2.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 3500 ksh</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe3.jpeg">
+            <img src="images2/shoe3.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 4500 ksh</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe5.jpeg">
+            <img src="images2/shoe5.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 6500 ksh</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="images2/shoe6.jpeg">
+            <img src="images2/shoe6.jpeg" alt="shoes">
+        </a>
+        <div class="desc">Cost = 6500 ksh</div>
+    </div>
+
+    <div class="footer">
+        <p>Contact us: example@email.com</p>
+        <p>Phone: +123456789</p>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </div>
+</body>
+</html>
